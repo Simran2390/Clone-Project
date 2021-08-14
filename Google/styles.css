@@ -1,0 +1,141 @@
+* {
+ margin: 0;
+}
+
+body {
+ display: flex;
+ flex-direction: column;
+ height: 100vh;
+ background: rgba(0, 0, 0, 0.7) url('back.jpg');
+ background-size: cover;
+ background-blend-mode: darken;
+ 
+}
+.material-icons{
+ border-radius: 39px;
+}
+
+/* Header */
+.header {
+ display: flex;
+ justify-content: space-between;
+ padding: 20px 30px;
+ align-items: center;
+}
+/* .shortcut{
+ text-align: center;
+ border: 3px solid black;
+ border: 50px;
+ display: flex;
+ align-items: center;
+ padding-top: 0px;
+ padding-left: 445px; */
+/* } */
+ /* -webkit-tap-highlight-color: transparent;
+ align-items: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: var(--tile-size);
+    opacity: 1;
+    outline: none;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 300ms;
+    transition-property: left, top;
+    transition-timing-function: ease-in-out;
+    user-select: none;
+    width: var(--tile-size); */
+/* } */
+
+
+.header a {
+ margin-right: 20px;
+ text-decoration: inherit;
+ /* color: rgba(0, 0, 0, 0.87); */
+ color: whitesmoke;
+ font-size: 15px;
+}
+
+.header a:hover {
+ text-decoration: underline;
+}
+
+.header__right {
+ display: flex;
+ align-items: center;
+ min-width: 13vw;
+ justify-content: space-between;
+ color: whitesmoke;
+}
+
+.header__right .header__apps {
+ margin-right: 10px;
+}
+
+/* Main Body */
+
+.mainBody {
+ flex: 1;
+ display: flex;
+ margin-top: 12%;
+ flex-direction: column;
+ /* background-color: aqua; */
+}
+
+.mainBody img {
+ object-fit: contain;
+ height: 100px;
+ /* background-color: aqua; */
+}
+
+/* search */
+.search__input {
+ display: flex;
+ align-items: center;
+ border: 1px solid lightgray;
+ height: 30px;
+ padding: 10px 20px;
+ border-radius: 999px;
+ width: 75vw;
+ margin: 0 auto;
+ margin-top: 40px;
+ max-width: 560px;
+}
+
+.search__input input {
+ flex: 1;
+ padding: 10px 20px;
+ border: none;
+ outline: none;
+ border-radius: 235px;
+}
+
+.search__input .material-icons {
+ color: gray;
+}
+
+.search__buttons {
+ margin-top: 30px;
+ display: flex;
+ justify-content: center;
+ border-radius: 34px;
+ /* background-color: red; */
+}
+
+.search__buttons button {
+ margin: 5px;
+ padding: 10px 15px;
+ background-color: #f8f8f8;
+ outline: none;
+ border: none;
+ border-radius: 39px;
+ cursor: pointer;
+}
+.background{
+ background: rgba(0, 0, 0, 0.7) url('back.jpg');
+ background-size: cover;
+ background-blend-mode: darken; 
+}
