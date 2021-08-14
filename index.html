@@ -1,0 +1,443 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gmail</title>
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <div class="header">
+      <div class="header__left">
+        <span class="material-icons"> menu </span>
+        <img
+          src="download.png"
+          alt=""
+        />
+      </div>
+
+      <div class="header__middle">
+        <span class="material-icons"> search </span>
+        <input type="text" placeholder="Search mail" />
+        <span class="material-icons"> arrow_drop_down </span>
+      </div>
+
+      <div class="header__right">
+        <span class="material-icons"> apps </span>
+        <span class="material-icons"> notifications </span>
+        <span class="material-icons"> account_circle </span>
+      </div>
+    </div>
+    <!-- Header Ends -->
+
+    <!-- Main Body Starts -->
+    <div class="main__body">
+      <!-- Sidebar Starts -->
+      <div class="sidebar">
+        <button class="sidebar__compose"><span class="material-icons"> add </span>Compose</button>
+        <div class="sidebarOption sidebarOption__active">
+          <span class="material-icons"> inbox </span>
+          <h3>Inbox</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> star </span>
+          <h3>Starred</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> access_time </span>
+          <h3>Snoozed</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> label_important </span>
+          <h3>Important</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> near_me </span>
+          <h3>Sent</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> note </span>
+          <h3>Drafts</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> expand_more </span>
+          <h3>More</h3>
+        </div>
+        <br>
+        
+        <div class="sidebarOption">
+          <span class="material-icons">duo</span>
+          <h3>New-Meeting</h3>
+        </div>
+        <div class="sidebarOption">
+          <span class="material-icons">keyboard_hide</span>
+          <h3>Join a meeting</h3>
+        </div>
+        <br>
+
+        <div class="sidebar__footer">
+          <div class="sidebar__footerIcons">
+            <span class="material-icons"> person </span>
+            <span class="material-icons"> duo </span>
+            <span class="material-icons"> phone </span>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar Ends -->
+
+      <!-- Email List Starts -->
+      <div class="emailList">
+        <!-- Settings Starts -->
+        <div class="emailList__settings">
+          <div class="emailList__settingsLeft">
+            <input type="checkbox" />
+            <span class="material-icons"> arrow_drop_down </span>
+            <span class="material-icons"> redo </span>
+            <span class="material-icons"> more_vert </span>
+          </div>
+          <div class="emailList__settingsRight">
+            <span class="material-icons"> chevron_left </span>
+            <span class="material-icons"> chevron_right </span>
+            <span class="material-icons"> keyboard_hide </span>
+            <span class="material-icons"> settings </span>
+          </div>
+        </div>
+        <!-- Settings Ends -->
+
+        <!-- Section Starts -->
+        <div class="emailList__sections">
+          <div class="section section__selected">
+            <span class="material-icons"> inbox </span>
+            <h4>Primary</h4>
+          </div>
+
+          <div class="section">
+            <span class="material-icons"> people </span>
+            <h4 class="Blue">Social</h4>
+            <!-- <h4>Social</h4> -->
+          </div>
+
+          <div class="section">
+            <span class="material-icons"> local_offer </span>
+            <h4 class="Green">Promotions</h4>
+            <!-- <h4>Promotions</h4> -->
+          </div>
+        </div>
+        <!-- Section Ends -->
+
+        <!-- Email List rows starts -->
+        <div class="emailList__list">
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">YouTube</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Subscriber
+                <span class="emailRow__description"> - on Your Channel AshCoder </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">
+              Quora Digest</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Is it worth joining KIIT University’s B.Tech in the CS branch?
+                <span class="emailRow__description"> -Answer: Hey, I don’t think that you think about KIIT over IITs or NITs. So I am assuming that you have tried your best to get into an IITs. Now I want to tell you one</span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">Stack Overflow</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Welcome to ISSUE #86 of the Overflow! 
+                <span class="emailRow__description">This newsletter is by developers, for developers, written and curated by the Stack Overflow team and Cassidy Williams at Netlify. This week: the Dev Survey results, why we describe technology in terms of a stack, and test-driven development in React Native.</span>
+                
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">
+              Quora Suggested Spaces</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Does Coding Ninjas provide their student interview opportunities with a product-based company?
+                <span class="emailRow__description">This email was sent by Quora (605 Castro Street, Mountain View, CA 94041).
+                  You were sent this email because you might like Computer science. If you don't want these updates anymore, you can mute Computer science or unsubscribe</span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">2am</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">Internshala Trainings</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                To build India, let’s skill up India! FLAT 75% OFF on online trainings.
+                <span class="emailRow__description">Hi Ashwini,
+ 
+                  As our tricolor unfurls up high, let us ask not what our country can do for us, but what we can do for our country. With the spirit of the nation within us, let us learn new skills now to build our country tomorrow. After all, a skilled India will build India!</span>
+                
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">
+              Coding Ninjas</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                100% Scholarship Test Alert | 22nd-23rd August 2021 | Register Now
+                <span class="emailRow__description">-The Scholarship Test will be held over a period of 2 days, i.e. 22nd and 23rd August, 2021 at 9 PM. So if you are not able to appear for the test on 22nd, then you need not worry, as you can take the same on 23rd August!
+
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">GeeksforGeeks </h3>
+
+            <div class="emailRow__message">
+              <h4>
+                We've got some exciting news!
+                <span class="emailRow__description">-Hey Geek,
+
+                We know how uncertainity hits in second-year college. Don't worry we got your back!
+                
+                We're always looking to make your coding journey easier, so we wish to introduce you to our new course, 'Computer Organisation and Architecture'.</span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">Google Cloud EDU</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                [Reminder] Complete the remaining courses in your program | Google Cloud career readiness<span class="emailRow__description">
+                  -Dear Ashwini Kumar behera,
+                  Thank you so much for taking the next step towards building your career in cloud by enrolling in the Google Cloud career readiness program on Coursera. Note: You have until 30th September 2021 to finish the program otherwise your access will be REVOKED.
+                  
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">2am</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">Google</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                2-Step Verification turned on
+                <span class="emailRow__description"> -Your Google Account princeashwini567@gmail.com is now protected with 2-Step Verification. When you sign in on a new or untrusted device, you’ll need your second factor to verify your identity. </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">IIT Madras ACSE </h3>
+
+            <div class="emailRow__message">
+              <h4>
+                IoT Career Opportunities: Ultimate Guide 2021 
+                <span class="emailRow__description"> -Hi Ashwini kumar Behera 
+                  Internet of Things is one of the hottest areas growing on the internet. It basically means to connect things to the internet and be able to control or monitor activities in any scenario irrespective of your location. With 5G under development, the Internet Of Things jobs are foreseen to sell like hotcakes soon. </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">Airtel Payments Bank</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Myntra Right to Fashion Sale! Up to 80% off + ₹ 200 Cashback<span class="emailRow__description">
+                  - Airtel Payments Bank has sent this e-mail to you because your subscription preferences indicate that you want to
+                  receive alerts on this email address. Click here to unsubscribe
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">D2C Pulse </h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Psstt! The solutions to all hackathons are out, don’t tell anyone about it.<span class="emailRow__description">
+                  -Hi Ashwini Kumar Behera, 
+
+                  The winning team always does something different and by the time you find out what sets them apart, it is already too late. We have seen this happen way too many times and we want this to stop, now! 
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">2am</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <!-- <span class="material-icons"> label_important </span> -->
+            </div>
+
+            <h3 class="emailRow__title">Webinar </h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Ashwini, great webinar. We are extending our offer.
+               <span class="emailRow__description"> -Dear Ashwini,
+
+                  A big thank you for participating in the webinar hosted by SkillUp Online. Your involvement helped to make this a fantastic knowledge-building and fun event for everybody! </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+        </div>
+        <!-- Email List rows Ends -->
+      </div>
+      <!-- Email List Ends -->
+    </div>
+    <!-- Main Body Ends -->
+  </body>
+</html>
